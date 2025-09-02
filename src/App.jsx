@@ -13,12 +13,12 @@ import "./index.css";
 import Reducer from "./Reducer";
 // import "./app.css";
 import Menu from "./Components/Menu Componets/Menu";
-import { ColorContext } from "./Context/colorContext";
+import { colorContext } from "./Context/tmp";
 import { TodoContext } from "./Context/TodoContext";
 import { useState, useReducer } from "react";
 import { v4 as uuidv4 } from "uuid";
 import TodoList from "./Components/Todolist";
-import { data } from "autoprefixer";
+// import { data } from "autoprefixer";
 function App() {
   //! Colors Control
   let getColor = JSON.parse(localStorage.getItem("dataColor"));
@@ -38,20 +38,20 @@ function App() {
   localStorage.setItem("dataColor", JSON.stringify(dataColor));
 
   //! Data Transform
-  let init = [
-    {
-      id: uuidv4(),
-      title: "React Tarmez",
-      details: "Study This Course",
-      isCompleted: false,
-    },
-    {
-      id: uuidv4(),
-      title: "React Tarmezzzz",
-      details: "Study This Coursezzz",
-      isCompleted: true,
-    },
-  ];
+  // let init = [
+  //   {
+  //     id: uuidv4(),
+  //     title: "React Tarmez",
+  //     details: "Study This Course",
+  //     isCompleted: false,
+  //   },
+  //   {
+  //     id: uuidv4(),
+  //     title: "React Tarmezzzz",
+  //     details: "Study This Coursezzz",
+  //     isCompleted: true,
+  //   },
+  // ];
 
   let [todo, dispatch] = useReducer(TodosReducer, []);
   let [todo2, setTodo] = useState([
@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div className="">
-      <ColorContext.Provider
+      <colorContext.Provider
         value={{
           selectedID,
           setSelectedID,
@@ -95,7 +95,7 @@ function App() {
             {/* <Task /> */}
           </div>
         </div>
-      </ColorContext.Provider>
+      </colorContext.Provider>
       <ToastContainer />
       {/* <Reducer /> */}
     </div>
