@@ -17,7 +17,7 @@ import { colorContext } from "./Context/colorContext";
 import { TodoContext } from "./Context/TodoContext";
 import { useState, useReducer } from "react";
 import { v4 as uuidv4 } from "uuid";
-import TodoList from "./Components/Todolist";
+import TodoList from "./Components/TodoList";
 // import { data } from "autoprefixer";
 function App() {
   //! Colors Control
