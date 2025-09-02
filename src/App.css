@@ -1,0 +1,14 @@
+/* @keyframes rounded {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+*/
+.setting-icon {
+  /* animation: rounded 3s linear infinite; */
+  font-size: 28px;
+  color: white;
+}

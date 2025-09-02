@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mark {
+  /* font-family: "Doto", sans-serif; */
+  /* border-right: #ff00004a solid 5px; */
+  /* box-shadow: inset -50px 0px 40px -40px rgb(246 0 0 / 40%); */
+}
