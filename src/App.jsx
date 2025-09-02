@@ -13,7 +13,7 @@ import "./index.css";
 import Reducer from "./Reducer";
 // import "./app.css";
 import Menu from "./Components/Menu Componets/Menu";
-import { colorContext } from "./Context/tmp";
+import { colorContext } from "./Context/colorContext";
 import { TodoContext } from "./Context/TodoContext";
 import { useState, useReducer } from "react";
 import { v4 as uuidv4 } from "uuid";
