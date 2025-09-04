@@ -16,7 +16,7 @@ const label = { inputProps: { "aria-label": "Checkbox demo" } };
 import { useContext, useReducer } from "react";
 import { TodoContext } from "../Context/TodoContext";
 import TodosReducer from "./TodosReducer";
-import { details, title } from "framer-motion/client";
+// import { details, title } from "framer-motion/client";
 import { Title } from "@mui/icons-material";
 // if (filter === "all") {
 // import { title } from "framer-motion/client";

@@ -1,5 +1,5 @@
 //TODO Condition &&( هو Logical AND operator بيُستخدم كتريك (short-circuit rendering) لعرض JSX أو تنفيذ حاجة معينة لو الشرط اتحقق.
-import "../../app.css";
+// import "../../app.css";
 import { useContext, useState, useEffect } from "react";
 import { colorContext } from "../../Context/colorContext";
 import { TodoContext } from "../../Context/TodoContext";

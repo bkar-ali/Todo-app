@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import TodosReducer from "./Components/TodosReducer";
 
 import "./index.css";
-import Reducer from "./Reducer";
+// import Reducer from "./Reducer";
 // import "./app.css";
 import Menu from "./Components/Menu Componets/Menu";
 import { colorContext } from "./Context/colorContext";
