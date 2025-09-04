@@ -1,9 +1,9 @@
 import Marquee from "react-fast-marquee";
 import { AnimatePresence } from "framer-motion";
 // import { title } from "framer-motion/client";
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 import { motion } from "framer-motion";
-// let { pageColor } = useContext(ColorContext);
+// let { pageColor } = useContext(colorContext);
 // import { useContext } from "react";ى
 import AddIcon from "@mui/icons-material/Add";
 import Todo from "./Todo";
