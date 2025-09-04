@@ -21,7 +21,7 @@ import TodoList from "./Components/TodoList";
 // import { data } from "autoprefixer";
 function App() {
   //! Colors Control
-  let getColor = JSON.parse(localStorage.getItem("dataColor"));
+  let getColor = JSON.parse(localStorage.getItem("dataColor")) || {};
   let [bgColor, setBgColor] = useState(getColor.bgColor || "#0000ff36");
   let [pageColor, setPageColor] = useState(getColor.pageColor || "blue");
   let [sidecolor, setSidecolor] = useState(getColor.sidecolor || "#3b82f6");

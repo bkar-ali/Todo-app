@@ -177,10 +177,10 @@ const Menu = () => {
                     }}
                     {...label}
                     icon={
-                      <TbLayoutSidebarLeftCollapse className="setting-icon !text-black dark:!text-white " />
+                      <TbLayoutSidebarLeftCollapse className="setting-icon !text-black dark:!text-white w-[25px] h-[25px] " />
                     }
                     checkedIcon={
-                      <TbLayoutSidebarLeftCollapse className="setting-icon !text-black dark:!text-white " />
+                      <TbLayoutSidebarLeftCollapse className="setting-icon !text-black dark:!text-white w-[25px] h-[25px] " />
                     }
                   />
                 </Tooltip>
@@ -199,10 +199,10 @@ const Menu = () => {
                       }}
                       {...label}
                       icon={
-                        <TbLayoutSidebarLeftExpand className="setting-icon !text-black dark:!text-white " />
+                        <TbLayoutSidebarLeftExpand className="setting-icon !text-black dark:!text-white w-[25px] h-[25px] " />
                       }
                       checkedIcon={
-                        <TbLayoutSidebarLeftExpand className="setting-icon !text-black dark:!text-white " />
+                        <TbLayoutSidebarLeftExpand className="setting-icon !text-black dark:!text-white w-[25px] h-[25px] " />
                       }
                       sx={{
                         // color: pink[800],
